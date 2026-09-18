@@ -56,8 +56,8 @@ export default function Home({ onExploreMenu, onOpenReserve }) {
           <p className="text-lg text-[#6B5B7B] max-w-2xl mx-auto lg:mx-0">
             Welcome to <strong className="text-[#583A85]">Shaina Cafe</strong> — a cozy sanctuary
             where every treat is handcrafted with love by founder{' '}
-            <strong className="text-[#AA326C]">Raju Bhai</strong>, the owner & chef. Step in for
-            a relaxed, peaceful vibe in the heart of Gidderbaha, Punjab
+            <strong className="text-[#AA326C]">Sandeep Rana</strong>, the owner & chef. Step in for
+            a relaxed, peaceful vibe in the heart of Earth, Punjab
           </p>
 
           {/* Buttons */}
@@ -98,7 +98,7 @@ export default function Home({ onExploreMenu, onOpenReserve }) {
           <div className="relative rounded-[2.5rem] p-3 bg-gradient-to-tr from-[#B298E7] via-[#F5B8D5] to-[#B8E3E9] shadow-2xl">
             <div className="relative rounded-[2rem] overflow-hidden bg-white aspect-[4/5]">
               <img
-                src="/images/shaina-cafe-home.webp"
+                src="public\images\Cafe front.jpg"
                 alt="Shaina Cafe"
                 className="w-full h-full object-cover hover:scale-105 transition-transform  duration-700"
               />
@@ -109,11 +109,11 @@ export default function Home({ onExploreMenu, onOpenReserve }) {
                 <div>
                   <h4 className="font-bold text-[#2B2135]">Shaina Cafe</h4>
                   <p className="text-xs text-[#6B5B7B] flex items-center gap-1">
-                    <MapPin className="w-3.5 h-3.5 text-[#AA326C]" /> Gidderbaha, Punjab
+                    <MapPin className="w-3.5 h-3.5 text-[#AA326C]" /> Earth, Punjab
                   </p>
                 </div>
                 <span className="px-3 py-1 bg-[#FDE8F3] text-[#AA326C] rounded-full text-xs font-bold">
-                  Raju bhai • Owner & Chef
+                  Sandeep Rana • Owner & Chef
                 </span>
               </div>
             </div>
