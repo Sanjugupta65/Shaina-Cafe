@@ -54,7 +54,7 @@ export const REVIEWS = [
     rating: 5,
     date: '4 months ago',
     spend: 'Dine in',
-    text: 'Shania Cafe in Gidderbha is excellent in every way. The food quality is outstanding, fresh, and full of flavor.',
+    text: ' The food quality is outstanding, fresh, and full of flavor.',
     highlight: 'Great place to unwind',
     avatarBg: '#D7C7F4',
     avatarInitial: 'H'
@@ -78,8 +78,8 @@ export const RATING_STATS = {
   totalReviews: 6,
   breakdown: [
     { stars: 5, percentage: 96.3 },
-    { stars: 4, percentage:  3.5},
-    { stars: 3, percentage: 0 },
+    { stars: 4, percentage:  2.4},
+    { stars: 3, percentage: 1.3},
     { stars: 2, percentage: 0 },
     { stars: 1, percentage: 0 }
   ]
