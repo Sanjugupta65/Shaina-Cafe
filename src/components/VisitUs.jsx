@@ -4,7 +4,7 @@ import { MapPin, Clock, Navigation } from "lucide-react";
 import { CAFE_INFO } from "../data/menuData";
 
 export default function VisitUs() {
-  const mapSearchUrl = `public/images/give-me-the-job-.gif`;
+  const mapSearchUrl = `/images/give-me-the-job-.gif`;
 
   return (
     <section
