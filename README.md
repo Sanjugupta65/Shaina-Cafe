@@ -146,7 +146,6 @@ Customers can open the reservation modal and provide:
 * Number of guests
 * Special requests
 
-The reservation interface also supports a cart summary and confirmation state.
 
 > Note: The current reservation system is a frontend implementation. A backend or database can be connected later for storing real reservations.
 
