@@ -2,7 +2,7 @@
 
 
 
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import {
   Coffee,
   Sparkles,
@@ -46,7 +46,7 @@ export default function Navbar({ onOpenReserve }) {
     <header
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-500 ${
         scrolled
-          ? "bg-[#FFF9FC]/85 backdrop-blur-md py-3 shadow-md"
+          ? "bg-[#FFF9FC]/85 backdrop-blur-md py-3 shadow-md border-b border-[#f9BEDD]/40"
           : "bg-transparent py-5"
       }`}
     >
@@ -62,19 +62,19 @@ export default function Navbar({ onOpenReserve }) {
           </div>
 
           <div>
-            <span className="text-xl font-bold text-[#2B2135] flex items-center gap-1">
+            <span className="text-xl font-bold text-[#2B2135] flex items-center gap-1 font-cute">
               Shaina Cafe
               <Sparkles className="w-4 h-4 text-[#F5B8D5]" />
             </span>
 
             <span className="text-[10px] uppercase text-[#6B5B7B] tracking-widest block -mt-1">
-              Cozy Haven • Gidderbaha
+              Cozy Haven • Earth
             </span>
           </div>
         </a>
 
         {/* Desktop Nav Links */}
-        <nav className="hidden md:flex items-center gap-1 bg-white/70 border border-[#D7C7F4]/40 px-4 py-1.5 rounded-full">
+        <nav className="hidden md:flex items-center gap-1 bg-white/70 border border-[#D7C7F4]/40 px-4 py-1.5 rounded-full shadow-sm">
           {NAV_LINKS.map((link) => (
             <a
               key={link.name}
