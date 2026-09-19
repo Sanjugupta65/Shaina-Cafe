@@ -65,7 +65,7 @@ export default function StorySection() {
             <div className="rounded-3xl p-3 bg-gradient-to-br from-[#F5B8D5] via-[#B298E7] to-[#B8E3E9] shadow-xl">
               <div className="relative rounded-2xl overflow-hidden aspect-[4/5] bg-white">
                 <img
-                  src="public/images/Owner-img.jpg"
+                  src="/images/Owner-img.jpg"
                   alt="Sandeep Rana - Owner & Chef of Shaina Cafe"
                   className="w-full h-full object-cover object-top"
                 />

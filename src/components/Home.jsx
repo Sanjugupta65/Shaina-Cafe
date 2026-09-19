@@ -98,7 +98,7 @@ export default function Home({ onExploreMenu, onOpenReserve }) {
           <div className="relative rounded-[2.5rem] p-3 bg-gradient-to-tr from-[#B298E7] via-[#F5B8D5] to-[#B8E3E9] shadow-2xl">
             <div className="relative rounded-[2rem] overflow-hidden bg-white aspect-[4/5]">
               <img
-                src="public/images/Cafe front.jpg"
+                src="/images/Cafe front.jpg"
                 alt="Shaina Cafe"
                 className="w-full h-full object-cover hover:scale-105 transition-transform  duration-700"
               />
