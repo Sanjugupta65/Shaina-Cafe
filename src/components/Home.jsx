@@ -41,7 +41,7 @@ export default function Home({ onExploreMenu, onOpenReserve }) {
             <span className="text-[#6B5B7B]">•</span>
             <span className="text-xs text-[#583A85]">Google Rated (6 Reviews)</span>
             <span className="bg-[#FDE8F3] text-[#AA326C] px-2 py-0.5 rounded-full text-xs font-bold">
-              ₹1–200 / person
+              ₹100–250 / person
             </span>
           </div>
 
@@ -81,7 +81,7 @@ export default function Home({ onExploreMenu, onOpenReserve }) {
             {[
               { value: '100%', label: 'Chef Made', color: '#583A85' },
               { value: 'Cozy', label: 'Serene Vibe', color: '#377580' },
-              { value: '₹1-200', label: 'Sweet Budget', color: '#AA326C' },
+              { value: '₹100-250', label: 'Sweet Budget', color: '#AA326C' },
             ].map((item) => (
               <div key={item.label} className="bg-white/70 p-3 rounded-2xl border text-center">
                 <span className="text-xl font-bold block" style={{ color: item.color }}>
