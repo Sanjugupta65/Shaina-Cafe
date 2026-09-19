@@ -101,10 +101,12 @@ npm install
 npm run dev
 ```
 
-### View in Browser
+### 5. View in Browser
 
 Once the project starts running, open your browser and navigate to:
-- Visit: http://localhost:5173
+```
+ http://localhost:5173
+```
 
 The application will be available at the local development URL shown in your terminal.
 
@@ -150,21 +152,14 @@ The reservation interface also supports a cart summary and confirmation state.
 
 
 
-## 📸 Preview
-
-Add screenshots of your project here:
-
-
-
 
 
 ## 🔗 Live Demo
 
 Add your deployed project link here:
 
-```text
-https://your-live-demo-link.com
-```
+[View Live Demo](https://shaina-cafe-azure.vercel.app/)
+
 
 ## 👨‍💻 Developer
 
